@@ -1,0 +1,3 @@
+# networks-starting-setup
+
+This repository contains a basic Dockerized Node.js application setup designed to demonstrate networking between containers using Docker Compose. It features a simple Express server (`server.js`) that listens on port 80, along with a `Dockerfile` for containerization and a `docker-compose.yml` for managing services and bridge network configuration. The app can be started with `docker-compose up --build` and accessed via `http://localhost`. Ideal for learning Docker networking fundamentals, this setup provides a lightweight, extensible foundation for exploring service-to-service communication and container orchestration.
